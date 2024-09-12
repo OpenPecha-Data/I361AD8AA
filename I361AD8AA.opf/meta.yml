@@ -3,7 +3,7 @@ ocr_import_info:
   bdrc_scan_id: W1KG22609
   source: bdrc
   ocr_info:
-    timestamp: '2022-08-25T00:00:00Z'
+    timestamp: '2023-02-01T00:00:00Z'
   batch_id: batch-0001
   software_id: norbuketaka
   expected_default_language: bo
@@ -11,8 +11,8 @@ ocr_import_info:
 default_language: bo
 source: https://library.bdrc.io
 initial_creation_type: ocr
-imported: 2023-01-21 16:21:17.500023
-last_modified: 2022-08-25 00:00:00+00:00
+imported: 2024-09-12 14:06:30.037495
+last_modified: 2023-02-01 00:00:00+00:00
 parser: https://github.com/OpenPecha/Norbu-Keta-eText-import/blob/main/norbu_ketaka_parser.py
 source_metadata:
   id: http://purl.bdrc.io/resource/W1KG22609
@@ -33,46 +33,6 @@ bases:
       volume_pages_bdrc_intro: 2
     base_file: I1KG22617.txt
     order: 1
-  I1KG22622:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I1KG22622
-      total_pages: 476
-      volume_number: 6
-      volume_pages_bdrc_intro: 2
-    base_file: I1KG22622.txt
-    order: 2
-  I1KG22623:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I1KG22623
-      total_pages: 336
-      volume_number: 7
-      volume_pages_bdrc_intro: 2
-    base_file: I1KG22623.txt
-    order: 3
-  I1KG22621:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I1KG22621
-      total_pages: 586
-      volume_number: 5
-      volume_pages_bdrc_intro: 2
-    base_file: I1KG22621.txt
-    order: 4
-  I1KG22620:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I1KG22620
-      total_pages: 594
-      volume_number: 4
-      volume_pages_bdrc_intro: 2
-    base_file: I1KG22620.txt
-    order: 5
-  I1KG22624:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I1KG22624
-      total_pages: 200
-      volume_number: 8
-      volume_pages_bdrc_intro: 2
-    base_file: I1KG22624.txt
-    order: 6
   I1KG22618:
     source_metadata:
       id: http://purl.bdrc.io/resource/I1KG22618
@@ -80,7 +40,7 @@ bases:
       volume_number: 2
       volume_pages_bdrc_intro: 2
     base_file: I1KG22618.txt
-    order: 7
+    order: 2
   I1KG22619:
     source_metadata:
       id: http://purl.bdrc.io/resource/I1KG22619
@@ -88,6 +48,46 @@ bases:
       volume_number: 3
       volume_pages_bdrc_intro: 2
     base_file: I1KG22619.txt
+    order: 3
+  I1KG22620:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG22620
+      total_pages: 594
+      volume_number: 4
+      volume_pages_bdrc_intro: 2
+    base_file: I1KG22620.txt
+    order: 4
+  I1KG22621:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG22621
+      total_pages: 586
+      volume_number: 5
+      volume_pages_bdrc_intro: 2
+    base_file: I1KG22621.txt
+    order: 5
+  I1KG22622:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG22622
+      total_pages: 476
+      volume_number: 6
+      volume_pages_bdrc_intro: 2
+    base_file: I1KG22622.txt
+    order: 6
+  I1KG22623:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG22623
+      total_pages: 336
+      volume_number: 7
+      volume_pages_bdrc_intro: 2
+    base_file: I1KG22623.txt
+    order: 7
+  I1KG22624:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG22624
+      total_pages: 200
+      volume_number: 8
+      volume_pages_bdrc_intro: 2
+    base_file: I1KG22624.txt
     order: 8
 copyright:
   status: Public domain
